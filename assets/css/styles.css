@@ -10,3 +10,13 @@ body {
     font-size: 1.6rem;
     font-family: "Sora", sans-serif;
 }
+
+.main {
+    width: 1036px;
+}
+
+
+.header {
+    display: grid;
+    background: #10375C;
+}
