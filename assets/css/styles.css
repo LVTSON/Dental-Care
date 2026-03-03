@@ -11,12 +11,140 @@ body {
     font-family: "Sora", sans-serif;
 }
 
-.main {
-    width: 1036px;
+main {
+    width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.btn {
+    --height : 60px;
+    width: 205px;
+    height: var(--height);
+    border-radius: 99px;
+    background: #2E80CE;
+    border: 2px solid #2E80CE;
+}
+
+.container {
+    justify-items: center;
+}
 
 .header {
-    display: grid;
+    min-height: 100vh;
     background: #10375C;
+}
+
+.header__top {
+    display: flex;
+    padding-top: 30px; 
+    width: 1070px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+
+.header__logo--circle::before {
+    position: relative;
+    top: 15px;
+    content: "";
+    display: block;
+    width: 3em;
+    height: 3em;
+    background: #2E80CE;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.header__logo--circle::after {
+    position: relative;
+    top: -15px;
+    left: 15px;
+    content: "";
+    display: block;
+    width: 1.6em;
+    height: 1.6em;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.header__logo--text {
+    display: block;
+    color: #FFF;
+    text-align: right;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.header__logo--small {
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 1.4rem;
+}
+
+.navbar__list {
+    display: flex;
+    justify-items: center;
+    list-style: none;
+}
+
+.navbar__link {
+    padding: 4px 42px;
+    color: #C9D2DA;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+}
+
+.navbar__link:hover{
+    color: #FFF;
+}
+
+.navbar__link--active::before {
+    position: relative;
+    content: "";
+    display: inline-block;
+    top: -3px;
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.header__btn--login {
+    color: #C9D2DA;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.header__btn--login:hover {
+    color: #FFF;
+}
+
+.header__btn {
+    margin-left: 28px;
+    width: 104px;
+    height: 44px;
+    color: #FFF;
+    text-align: center;
+    font-family: Sora;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+}
+
+.header__btn:hover {
+    opacity: 0.8;
 }
