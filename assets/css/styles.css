@@ -298,6 +298,10 @@ li {
     object-fit: cover;
 }
 
+.service__item--title {
+    margin-left: 19px;
+}
+
 .service__item--title--name {
     color: #10375C;
     font-size: 1.8rem;
