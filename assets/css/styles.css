@@ -230,23 +230,28 @@ li {
     padding-bottom: 170px;
 }
 
-.service__texts {
+/* .service__texts {
     display: grid;
     place-items: center;
-}
+} */
 
 .service__heading {
     color: #10375C;
     font-size: 5rem;
     font-weight: 600;
+    text-align: center;
     line-height: 1.2; /* 120% */
     letter-spacing: -1px;
 }
 
 .service__desc {
     margin-top: 18px;
+    width: 468px;
     color: #575F66;
     font-family: Sora;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 1.66; /* 166.667% */
@@ -317,5 +322,139 @@ li {
 }
 
 .service__btn {
-    margin-top: 75px;
+    margin-top: 55px;
+}
+
+/* how it works */
+
+.howitwork {
+    padding: 100px;
+    background: #F6FBFF;
+}
+
+.howitwork__heading {
+    color: #10375C;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -1px;
+}
+
+.howitwork__desc {
+    margin-top: 18px;
+    width: 468px;
+    color: #575F66;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.66; /* 166.667% */
+}
+
+/* <!-- how it works steps --> */
+
+.howitwork__steps {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.howitwork__steps--item {
+    padding: 42px 0 42px 42px;
+    width: 338px;
+    height: 370px;
+    border-radius: 4px;
+    background: #FFF;
+    border: 16px solid #EAF6FF;
+}
+
+.howitwork__steps--item:hover {
+    position: relative;
+    top: -16px;
+    border: 16px solid #2E80CE;
+    transition: all 0.3s ease;
+}
+
+.howitwork__steps--icon {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+}
+
+.howitwork__steps--title {
+    margin-top: 18px;
+    color: #10375C;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38; /* 138.462% */
+}
+
+.howitwork__steps--desc {
+    margin-top: 28px;
+    color: #575F66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+}
+
+.howitwork__steps--link {
+    margin-top: 18px;
+    color: #575F66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+}
+
+/* about us */
+
+.aboutus {
+    padding: 170px 0 291px;
+}
+
+.aboutus__content {
+    display: flex;
+}
+
+.about__image { 
+    position: relative;
+    display: flex;
+    margin-right: 190px;
+}
+
+.about__img {
+    width: 512px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.about__img--small {
+    position: absolute;
+    right: -51px;
+    top: 121px;
+    width: 332px;
+    height: 370px;
+}
+
+.aboutus__body {
+    width: 470px;
+}
+
+.aboutus__heading {
+    color: #10375C;
+    font-family: Sora;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -1px;   
+}
+
+.aboutus__desc {
+    margin-top: 18px;
+    color: #575F66;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.66; /* 166.667% */
+}
+
+.aboutus__link {
+    margin-top: 38px;
 }
