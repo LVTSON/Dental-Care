@@ -528,14 +528,17 @@ li {
 }
 
 .profile__arrow {
+    padding-bottom: 170px;
+}
+
+.blog__arrow, .profile__arrow {
     margin-top: 38px;
     display: flex;
     justify-content: center;
     gap: 18px;
-    padding-bottom: 170px;
 }
 
-.profile__control {
+.blog__control , .profile__control {
     content: "";
     display: block;
     width: 36px;
@@ -545,7 +548,7 @@ li {
     border: 2px solid #2E80CE;
 }
 
-.profile__control--icon {
+.blog__control--icon , .profile__control--icon {
     position: relative;
     top: 11px;
     left: 14px;
@@ -562,4 +565,217 @@ li {
     transform: scaleX(-1);
 }
 
+.cta__body {
+    display: flex;
+    align-items: center;
+    margin-top: 95px;
+    width: 1170px;
+    height: 427px;
+    border-radius: 4px;
+    background: #2E80CE;
+}
 
+.cta__image {
+    position: relative;
+    width: 44%;
+    margin-left: 70px;
+    margin-right: 160px;
+    bottom: 0;
+}
+
+.cta__image--img {
+    position: absolute;
+    bottom: -213px;
+}
+
+.cta__info--title {
+    color: #FFF;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -1px;
+}
+
+.cta__info--desc {
+    margin-top: 18px;
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.66; /* 166.667% */
+}
+
+.cta__button {
+    margin-top: 38px;
+    display: flex;
+    gap: 30px;
+}
+
+.cta__button--branch {
+    display: flex;
+    width: 135px;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid #fff;
+}
+
+.cta__buton--icon {
+    width: 23.09px;
+    height: 25.721px;
+    object-fit: cover;
+    margin: 7px 9px;
+}
+
+.cta__button--text {
+    margin: 5px 0;
+}
+
+.cta__button--desc {
+    display: block;
+    font-size: 0.8rem;
+    color: #FFF;
+}
+
+.cta__button--name {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.blog {
+    margin: 170px 0;
+}
+
+.blog__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog__info {
+    width: 470px;
+    margin-right: 130px;
+}
+
+.blog__info--title {
+    color: #10375C;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -1px;
+}
+
+.blog__info--link {
+    display: inline-block;
+    margin-top: 28px;
+    color: #10375C;
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.55; /* 155.556% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.blog__arrow {
+    margin-top: 28px;
+    justify-content: flex-start;
+}
+
+.blog__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.blog__item {
+    width: 270px;
+    border-radius: 12px;
+    border: 1px solid #E8EBEE;
+    background: #FFF;
+}
+
+.blog__item--img {
+    width: 271px;
+    height: 172px;
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+}
+
+.blog__item--info {
+    padding: 18px 22px;
+}
+
+.blog__item--heading {
+    color: #10375C;
+    font-size: 1.6;
+    font-weight: 600;
+    line-height: 1.62; /* 162.5% */
+}
+
+.blog__item--desc {
+    margin-top: 10px;
+    color: #575F66;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.71; /* 171.429% */
+}
+
+.blog__item--link {
+    margin-top: 12px;
+    color: #10375C;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.blog__item--link:hover {
+    color: #2E80CE;
+}
+
+.contact {
+    background: #F6FBFF;
+}
+
+.contact__body {
+    padding: 100px 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__heading {
+    color: #10375C;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2; /* 120% */
+    letter-spacing: -1px;
+}
+
+.contact__seperate {
+    margin-top: 18px;
+    width: 136px;
+    height: 2px;
+    background: #2E80CE;
+}
+
+.contact__desc {
+    margin-top: 18px;
+    color: #575F66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75; /* 175% */
+}
+
+.contact__btn {
+    margin-top: 38px;
+}
+
+/* footer */
+.footer {
+    height: 50vh;
+    margin-top: 170px;
+    background: #10375C;
+}
